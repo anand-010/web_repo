@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Unify Electronics Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand">Unify<span>Lab</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Solutions <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="solutions.html#home">Home</a></li>
+                        <li><a href="solutions.html#office">Office</a></li>
+                        <li><a href="solutions.html#government">Government</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="products.html">Products <i class="fas fa-chevron-down nav-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="#">KNX <i class="fas fa-chevron-right nav-icon"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products.html#knx-actuators">Actuators</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Push Buttons <i class="fas fa-chevron-right nav-icon"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="products.html#photon">Photon Panels</a></li>
+                                        <li><a href="products.html#quark">Quark Panels</a></li>
+                                        <li><a href="products.html#cubit">Cubit Panels</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="products.html#knx-ir">IR Emitters</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="products.html#wifi">WiFi</a></li>
+                        <li><a href="products.html#zigbee">Zigbee</a></li>
+                    </ul>
+                </li>
+                <li><a href="how-to-buy.html">How to Buy</a></li>
+                <li><a href="whats-new.html">What's New</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="contact-us.html" class="active">Contact Us</a></li>
+            </ul>
+            <button class="menu-btn" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <main class="inner-page">
+        <section class="page-hero">
+            <div class="container">
+                <div class="badge">Contact</div>
+                <h1>Let’s discuss your automation requirement</h1>
+                <p>The old contact page had a basic form. This version keeps the dedicated page and upgrades the layout
+                    while preserving the company email address.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <h5>Email Us</h5>
+                        <p><a href="mailto:contact@unifylabs.in">contact@unifylabs.in</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon-circle"><i class="fas fa-building"></i></div>
+                        <h5>Company Focus</h5>
+                        <p>Wired and wireless home automation solutions for residential and commercial projects.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon-circle"><i class="fas fa-location-dot"></i></div>
+                        <h5>Base</h5>
+                        <p>Designed and supported in India.</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Project Type">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your requirement" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <a href="index.html" class="brand">Unify<span>Lab</span></a>
+                <p>Automation guidance, product consultation, and project support.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Email</h4>
+                <ul>
+                    <li><a href="mailto:contact@unifylabs.in">contact@unifylabs.in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Copyright Unify Electronic Lab. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
