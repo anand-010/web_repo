@@ -1,4 +1,4 @@
-// Unify Electronics Lab - Interactivity
+// Hom Controls - Interactivity
 
 document.addEventListener('DOMContentLoaded', () => {
     // Sticky Navbar
