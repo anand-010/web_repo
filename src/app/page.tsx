@@ -153,6 +153,30 @@ export default function Home() {
               <Link href="/wifi-panel-10inch" className="btn btn-outline">View Details</Link>
             </div>
           </div>
+
+          <div className="product-card">
+            <div className="product-badge" style={{ backgroundColor: "var(--primary-color)" }}>Wireless</div>
+            <div className="product-img-wrapper" style={{ backgroundColor: "white" }}>
+              <img src="/assets/img/knx_products_large/m8pro/H01f51daa42704f528a6763fa8286bc89V.png_960x960q80.avif" alt="M8 Pro Push Button" className="product-mockup" style={{ objectFit: "contain" }} />
+            </div>
+            <div className="product-info">
+              <h4>M8 Pro Push Button</h4>
+              <p>Modern touch panel combining Tuya and Zigbee network capabilities.</p>
+              <Link href="/m8-pro" className="btn btn-outline">View Details</Link>
+            </div>
+          </div>
+
+          <div className="product-card">
+            <div className="product-badge" style={{ backgroundColor: "var(--primary-color)" }}>Wireless</div>
+            <div className="product-img-wrapper" style={{ backgroundColor: "white" }}>
+              <img src="/assets/img/knx_products_large/4gangwifi/H5e84849a280144d29ec9aa6d9b208dbbJ.jpg_960x960q80.avif" alt="4 Gang Smart Switch" className="product-mockup" style={{ objectFit: "contain" }} />
+            </div>
+            <div className="product-info">
+              <h4>4 Gang Smart Switch</h4>
+              <p>Tuya WiFi hidden module switch with robust 10A multi-channel control.</p>
+              <Link href="/4-gang-switch" className="btn btn-outline">View Details</Link>
+            </div>
+          </div>
         </div>
       </section>
 

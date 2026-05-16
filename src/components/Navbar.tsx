@@ -110,6 +110,8 @@ export default function Navbar() {
                   <li><Link href="/wifi-panel-4inch">4 Inch Panel</Link></li>
                   <li><Link href="/wifi-panel">8 Inch Panel</Link></li>
                   <li><Link href="/wifi-panel-10inch">10 Inch Panel</Link></li>
+                  <li><Link href="/m8-pro">M8 Pro Push Button</Link></li>
+                  <li><Link href="/4-gang-switch">4 Gang Smart Switch</Link></li>
                 </ul>
               </li>
               <li><Link href="/products#zigbee">Zigbee</Link></li>
