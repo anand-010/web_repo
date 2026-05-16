@@ -112,9 +112,45 @@ export default function Home() {
               <img src="/assets/img/61B9FS8ibFL.webp" alt="WiFi Smart Panel" className="product-mockup" style={{ objectFit: "contain" }} />
             </div>
             <div className="product-info">
-              <h4>WiFi Smart Panels</h4>
+              <h4>8 Inch WiFi Panel</h4>
               <p>Tuya-ready smart home touch screen for effortless wireless control of modern spaces.</p>
               <Link href="/wifi-panel" className="btn btn-outline">View Details</Link>
+            </div>
+          </div>
+
+          <div className="product-card">
+            <div className="product-badge" style={{ backgroundColor: "var(--primary-color)" }}>Wireless</div>
+            <div className="product-img-wrapper" style={{ backgroundColor: "white" }}>
+              <img src="/assets/img/knx_products_large/3.5inch_touch/Ha2695b91153943f49ca006e5e420a94c7.jpg_960x960q80.avif" alt="3.5 Inch WiFi Panel" className="product-mockup" style={{ objectFit: "contain" }} />
+            </div>
+            <div className="product-info">
+              <h4>3.5 Inch WiFi Panel</h4>
+              <p>Compact Tuya-ready smart home touch screen for seamless wireless control.</p>
+              <Link href="/wifi-panel-3.5inch" className="btn btn-outline">View Details</Link>
+            </div>
+          </div>
+
+          <div className="product-card">
+            <div className="product-badge" style={{ backgroundColor: "var(--primary-color)" }}>Wireless</div>
+            <div className="product-img-wrapper" style={{ backgroundColor: "white" }}>
+              <img src="/assets/img/knx_products_large/3.5inch/Hc018c9674aa840e6bc141fc54909ba399.jpg_960x960q80.avif" alt="4 Inch WiFi Panel" className="product-mockup" style={{ objectFit: "contain" }} />
+            </div>
+            <div className="product-info">
+              <h4>4 Inch WiFi Panel</h4>
+              <p>Tuya-ready smart central control panel for comprehensive automation.</p>
+              <Link href="/wifi-panel-4inch" className="btn btn-outline">View Details</Link>
+            </div>
+          </div>
+
+          <div className="product-card">
+            <div className="product-badge" style={{ backgroundColor: "var(--primary-color)" }}>Wireless</div>
+            <div className="product-img-wrapper" style={{ backgroundColor: "white" }}>
+              <img src="/assets/img/knx_products_large/10inch_touch/Hce530fc3ae104580bd4f1744478bfc93G.jpg_960x960q80.avif" alt="10 Inch WiFi Panel" className="product-mockup" style={{ objectFit: "contain" }} />
+            </div>
+            <div className="product-info">
+              <h4>10 Inch WiFi Panel</h4>
+              <p>Large format Tuya smart control touch screen for ultimate visibility and control.</p>
+              <Link href="/wifi-panel-10inch" className="btn btn-outline">View Details</Link>
             </div>
           </div>
         </div>

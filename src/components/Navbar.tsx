@@ -44,7 +44,7 @@ export default function Navbar() {
       <div className="nav-container">
         <Link href="/" className="brand">
           <img
-            src="/assets/img/logo.jpeg"
+            src="/assets/img/logo.png"
             alt="Hom Controls Logo"
             style={{ height: "40px", verticalAlign: "middle" }}
           />

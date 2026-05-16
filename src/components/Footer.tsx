@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container footer-content">
         <div className="footer-col brand-col">
           <Link href="/" className="brand">
-            <img src="/assets/img/logo.jpeg" alt="Hom Controls Logo" style={{ height: "40px", verticalAlign: "middle" }} />
+            <img src="/assets/img/logo.png" alt="Hom Controls Logo" style={{ height: "40px", verticalAlign: "middle" }} />
           </Link>
           <p>
             Smart automation products designed for premium homes, villas, offices, and integrated building projects.
