@@ -83,7 +83,17 @@ export default function Navbar() {
                   KNX <i className="fas fa-chevron-right nav-icon"></i>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link href="/actuator">Actuators</Link></li>
+                  <li
+                    className={`dropdown-submenu ${openDropdowns.includes("actuators") ? "dropdown-open" : ""}`}
+                  >
+                    <a href="#" onClick={(e) => toggleDropdown(e, "actuators")}>
+                      Actuators <i className="fas fa-chevron-right nav-icon"></i>
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li><Link href="/16-channel-actuator">16 Channel Actuator</Link></li>
+                      <li><Link href="/24-channel-actuator">24 Channel Actuator</Link></li>
+                    </ul>
+                  </li>
                   <li
                     className={`dropdown-submenu ${openDropdowns.includes("push-buttons") ? "dropdown-open" : ""}`}
                   >
@@ -112,6 +122,7 @@ export default function Navbar() {
                   <li><Link href="/wifi-panel-10inch">10 Inch Panel</Link></li>
                   <li><Link href="/m8-pro">M8 Pro Push Button</Link></li>
                   <li><Link href="/4-gang-switch">4 Gang Smart Switch</Link></li>
+                  <li><Link href="/4-touch-wifi-switch">4 Touch WiFi Switch</Link></li>
                 </ul>
               </li>
               <li><Link href="/products#zigbee">Zigbee</Link></li>
