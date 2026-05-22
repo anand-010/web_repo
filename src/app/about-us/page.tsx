@@ -44,24 +44,7 @@ export default function AboutUs() {
             </div>
         </section>
 
-        <section className="page-section section-bg">
-            <div className="container section-header">
-                <h3>Leadership</h3>
-                <p>Meet the team driving execution and engineering excellence at Hom Controls.</p>
-            </div>
-            <div className="container leadership-grid">
-                <div className="leader-card">
-                    <div className="member-avatar large"><i className="fas fa-user-tie"></i></div>
-                    <h4>Aswin Ramachandran</h4>
-                    <p>Entrepreneur working in the home automation field for the last 8 years.</p>
-                </div>
-                <div className="leader-card">
-                    <div className="member-avatar large"><i className="fas fa-microchip"></i></div>
-                    <h4>Anand S</h4>
-                    <p>Product developer and technology supporter at Hom Controls.</p>
-                </div>
-            </div>
-        </section>
+
     </main>
 
     
