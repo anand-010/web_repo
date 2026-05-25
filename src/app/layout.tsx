@@ -5,6 +5,7 @@ import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollAnimation from "@/components/ScrollAnimation";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] });
 
@@ -51,6 +52,7 @@ export default function RootLayout({
         <ScrollAnimation />
         {children}
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
