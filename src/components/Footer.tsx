@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const officeAddress = "No.3/1, 13th ‘A’ Main, 21st Cross Rd, RKK Nagar, BTM Layout 2nd Stage, Bengaluru, Karnataka 560076";
+const officeMapUrl = "https://www.google.com/maps/search/?api=1&query=No.3%2F1%2C%2013th%20%E2%80%98A%E2%80%99%20Main%2C%2021st%20Cross%20Rd%2C%20RKK%20Nagar%2C%20BTM%20Layout%202nd%20Stage%2C%20Bengaluru%2C%20Karnataka%20560076";
+
 export default function Footer() {
   return (
     <footer>
@@ -38,6 +41,11 @@ export default function Footer() {
           <h4>Contact</h4>
           <ul>
             <li><a href="mailto:info@unifylabs.in">info@unifylabs.in</a></li>
+            <li>
+              <a href={officeMapUrl} target="_blank" rel="noreferrer" className="footer-address">
+                {officeAddress}
+              </a>
+            </li>
             <li><Link href="/contact-us">Request Callback</Link></li>
             <li><Link href="/contact-us">Support Inquiry</Link></li>
           </ul>

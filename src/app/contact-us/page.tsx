@@ -1,4 +1,5 @@
-import Link from "next/link";
+const officeAddress = "No.3/1, 13th ‘A’ Main, 21st Cross Rd, RKK Nagar, BTM Layout 2nd Stage, Bengaluru, Karnataka 560076";
+const officeMapUrl = "https://www.google.com/maps/search/?api=1&query=No.3%2F1%2C%2013th%20%E2%80%98A%E2%80%99%20Main%2C%2021st%20Cross%20Rd%2C%20RKK%20Nagar%2C%20BTM%20Layout%202nd%20Stage%2C%20Bengaluru%2C%20Karnataka%20560076";
 
 export default function ContactUs() {
   return (
@@ -31,8 +32,12 @@ export default function ContactUs() {
                     </div>
                     <div className="info-card">
                         <div className="icon-circle"><i className="fas fa-location-dot"></i></div>
-                        <h5>Base</h5>
-                        <p>Designed and supported in India.</p>
+                        <h5>Visit Us</h5>
+                        <p>
+                            <a href={officeMapUrl} target="_blank" rel="noreferrer" className="address-link">
+                                {officeAddress}
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <form className="contact-form">

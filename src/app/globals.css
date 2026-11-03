@@ -1046,6 +1046,11 @@ h5 {
   color: var(--text-muted);
 }
 
+.address-link,
+.footer-address {
+  line-height: 1.55;
+}
+
 .contact-form {
   background: var(--white);
   padding: 3rem;
